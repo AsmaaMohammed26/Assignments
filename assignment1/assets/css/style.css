@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+div.parent {
+  background-color: blue;
+}
+
+div.child {
+  background-color: aqua;
+  width: 32.5%;
+  margin: 0.5% 0 0.5% 0.5%;
+  float: left;
+}
+
+div.clr {
+  clear: both;
+}
+/* /////////////////////////////////////////////////////////////// */
+div.buttons {
+  background-color: rgb(187, 144, 144);
+  width: fit-content;
+  margin: 10px;
+  padding: 10px;
+}
+
+div.buttons button {
+  border-radius: 3px;
+  padding: 5px;
+  text-transform: capitalize;
+  border: none;
+  color: white;
+}
+/* ///////////////////////////////////////////////////////////// */
+form {
+  margin: 10px;
+}
+form label {
+  display: block;
+}
+form input {
+  display: block;
+  width: 100%;
+  margin-block: 5px;
+  padding: 10px;
+}
+form textarea {
+  display: block;
+  width: 100%;
+  margin-block: 5px;
+  padding: 10px;
+}
+
+form button {
+  color: white;
+  background-color: rgb(78, 78, 158);
+  display: block;
+  border: none;
+  padding: 3px;
+  border-radius: 3px;
+  margin-inline: auto 10px;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+iframe {
+  margin-inline: 10px;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+table {
+  background-color: rgb(228, 225, 220);
+  border: 1px solid black;
+
+  /* border-spacing: 0; */
+  border-collapse: collapse;
+  width:100% ;
+  margin-block: 15px;
+}
+table td,th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table td:last-child {
+  color: rgb(61, 179, 61);
+}
+
+table button {
+  color: white;
+  background-color: rgb(21, 120, 80);
+  border: none;
+  padding: 2px;
+  border-radius: 3px;
+}
