@@ -1,0 +1,17 @@
+
+@mixin d-flex($herizontal:center,$vertical:center){
+    display: flex;
+    justify-content: $herizontal;
+    align-items: $vertical;
+    @content;
+  
+    
+}
+@mixin screen-width($value:900px){
+    @media (max-width:$value){
+        @content
+      }
+}
+
+
+

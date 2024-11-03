@@ -1,0 +1,33 @@
+@use "../utilizies/colors" as *;
+@use "../utilizies/mixins" as *;
+@use "../utilizies/placeholder" as *;
+
+.card-hover {
+
+    @include d-flex;
+  
+  .main-card {
+    // overflow: hidden;
+    position: relative;
+    padding: 1rem;
+    line-height: 1.5;
+    border: 0.5em solid white;
+    @include d-flex(space-between, start) {
+      flex-direction: column;
+    }
+    @extend %element-style;
+    background-color: rgb(121, 79, 79);
+    width: 50%;
+    background-image: url("../images/weekendplayer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-size: cover;
+    background-position: center center;
+    color: $button-txt-color;
+    & p:last-child {
+      align-self: center;
+    }
+    overflow: auto;
+  }
+  
+}

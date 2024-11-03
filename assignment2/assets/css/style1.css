@@ -1,0 +1,32 @@
+/* reset  */
+*{
+    
+    margin: 0px;
+   padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.container{
+   
+    height: 100vh;
+   
+}
+
+.header,.main,.footer{
+    border: 2px solid black;
+}
+.container .header{
+    background-color: rgb(17, 152, 152);
+    height: 20%;
+}
+
+.container .main{
+    background-color: rgb(232, 237, 237);
+    height: 70%;
+}
+
+.container .footer{
+    background-color: rgb(206, 74, 188);
+    height: 10%;
+}

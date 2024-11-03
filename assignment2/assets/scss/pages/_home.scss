@@ -1,0 +1,30 @@
+@use "../utilizies/colors" as *;
+@use "../utilizies/mixins" as *;
+@use "../utilizies/placeholder" as *;
+
+.home {
+ 
+
+  @include d-flex;
+  @include screen-width {
+    flex-wrap: wrap;
+  }
+}
+
+$dirs: left, center, right;
+@each $i in $dirs {
+  .card-#{$i} {
+    text-align: #{$i};
+    background-color: $button-txt-color;
+    @extend %element-style;
+    @include screen-width {
+      flex-grow: 1;
+    }
+    i{
+       padding: 10px;
+    margin-block: 10px;
+    border-radius: 5px;
+    background-color: rgb(169, 195, 186);
+    }
+  }
+}

@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(175, 173, 173);
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: 15px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  padding-block: 5px;
+  margin-block: 5px;
+}
+
+.card-hover .main-card, .about .card, .card-left, .card-center, .card-right {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button {
+  all: unset;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(16, 101, 91);
+  border: 1px solid transparent;
+  padding: 5px;
+  width: 90%;
+  margin: 5px auto;
+  color: rgb(248, 241, 241);
+}
+button:hover {
+  background-color: rgb(248, 241, 241);
+  color: rgb(16, 101, 91);
+  border-color: rgb(16, 101, 91);
+  word-spacing: 5px;
+}
+
+i {
+  color: rgb(16, 101, 91);
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .home {
+    flex-wrap: wrap;
+  }
+}
+
+.card-left {
+  text-align: left;
+  background-color: rgb(248, 241, 241);
+}
+@media (max-width: 900px) {
+  .card-left {
+    flex-grow: 1;
+  }
+}
+.card-left i {
+  padding: 10px;
+  margin-block: 10px;
+  border-radius: 5px;
+  background-color: rgb(169, 195, 186);
+}
+
+.card-center {
+  text-align: center;
+  background-color: rgb(248, 241, 241);
+}
+@media (max-width: 900px) {
+  .card-center {
+    flex-grow: 1;
+  }
+}
+.card-center i {
+  padding: 10px;
+  margin-block: 10px;
+  border-radius: 5px;
+  background-color: rgb(169, 195, 186);
+}
+
+.card-right {
+  text-align: right;
+  background-color: rgb(248, 241, 241);
+}
+@media (max-width: 900px) {
+  .card-right {
+    flex-grow: 1;
+  }
+}
+.card-right i {
+  padding: 10px;
+  margin-block: 10px;
+  border-radius: 5px;
+  background-color: rgb(169, 195, 186);
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .about {
+    flex-wrap: wrap;
+  }
+}
+.about .card {
+  background: rgb(248, 241, 241);
+  width: 25%;
+}
+@media (max-width: 900px) {
+  .about .card {
+    width: auto;
+  }
+}
+.about .img-card {
+  border-block: 1px solid rgb(175, 173, 173);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.about .img-card img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.about .img-card p {
+  font-size: 12px;
+  color: rgb(175, 173, 173);
+}
+.about .icon-foot {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-hover .main-card {
+  position: relative;
+  padding: 1rem;
+  line-height: 1.5;
+  border: 0.5em solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  background-color: rgb(121, 79, 79);
+  width: 50%;
+  background-image: url("../images/weekendplayer.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-size: cover;
+  background-position: center center;
+  color: rgb(248, 241, 241);
+  overflow: auto;
+}
+.card-hover .main-card p:last-child {
+  align-self: center;
+}/*# sourceMappingURL=main.css.map */
